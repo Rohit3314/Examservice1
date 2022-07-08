@@ -1,0 +1,18 @@
+   <div align="center">
+    <h3>View QP Record</h3>
+    <table border="1">
+           <thead>
+               <th> QPno</th>     
+               <th> QPname</th>
+               <th> Qtotal</th>
+           </thead>
+           <tbody>
+                  <tr *ngFor="let r of data1">
+                   <td>{{r.qpno}}</td>
+                   <td>{{r.qpname}}</td>
+                   <td>{{r.qptotal}}</td>
+                   </tr>
+           </tbody>
+
+    </table>
+</div>

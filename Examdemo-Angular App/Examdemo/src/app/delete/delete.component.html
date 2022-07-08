@@ -1,0 +1,12 @@
+<div align="center">
+    <h3>Delete QP Details</h3>
+    <br>
+    <form #deleteform ="ngForm" (ngSubmit)="deletedata(deleteform)">
+    <label> Enter QP. No: </label>
+    <input type="text" name="qpno" id="qpno" #qpno (ngModel)="qpno">
+    <br>
+     
+     <input type="submit" value="Delete">
+    </form>
+</div>
+

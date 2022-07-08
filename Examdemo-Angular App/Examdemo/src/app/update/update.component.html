@@ -1,0 +1,16 @@
+<div align="center">
+    <h3>Update QP Details</h3>
+    <br>
+    <form #updateform ="ngForm" (ngSubmit)="updatedata(updateform)">
+    <label> Enter QP. No: </label>
+    <input type="text" name="qpno" id="qpno" #qpno (ngModel)="qpno">
+    <br>
+     <label> Enter QP. Name : </label>
+     <input type="text" name="qpname" id="qpname" #qpname (ngModel)="qpname">
+     <br>
+     <label> Enter Total Q. :</label>
+     <input type="text" name="qptotal" id="qptotal" #qptotal (ngModel)="qptotal">
+     <br>
+     <input type="submit" value="Update">
+    </form>
+</div>
